@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best pizza only a click away">
+    <meta name="author" content="Ryan Langdon">
+    <link rel="icon" type="image/x-icon" href="./images/favicon_io (2)/favicon.ico">
+    <title>Shmumys pizza</title>
+    <style>
+        header {
+            background-color: black;
+            color:white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <header><h1>Shmumys Pizza</h1><img src="./images/logo.png" alt="Pizza logo" height="100" width="100" id="pizza"></header><br>
+    <!--Every thing in the black at the top-->
+    <form action="">   
+        <fieldset>
+            <legend><h2>Customer Information</h2></legend>
+            <ul>
+                <li><label>User Name</label> <input type="text"></li><br>
+                <li><label>Password</label> <input type="password"></li>
+            </ul>
+        </fieldset>
+        <!--User Information-->
+        <fieldset>
+            <legend><h2>What drink do you want</h2></legend>
+            <ul>
+                <li><label>Coke</label> <input type="radio" name="drink"></li>
+                <li><label>Diet Coke</label> <input type="radio" name="drink"></li>
+                <li><label>Sprite</label> <input type="radio" name="drink"></li>
+                <li><label>Water</label> <input type="radio" name="drink"></li>
+            </ul>
+        </fieldset>
+        <!--Drink Preference question-->
+        <fieldset>
+            <legend><h2>Pizza Preference</h2></legend>
+            <ul>
+                <li><label>Cheese</label> <input type="checkbox"></li>
+                <li><label>Pepperoni</label> <input type="checkbox"></li>
+                <li><label>Chicken</label> <input type="checkbox"></li>
+                <li><label>Sausage</label> <input type="checkbox"></li>
+            </ul>
+        </fieldset>
+        <!--pizza preference question-->
+        <fieldset>
+            <legend><h2>Special instructions</h2></legend>
+            <ul>
+                <li><label>Special instructions</label><br></li>
+                    <textarea id="freeform" rows="8" cols="50"></textarea>
+            </ul>
+            <button type="submit">Submit order</button>
+        </fieldset>
+        <!--Submit order and special instructions for pizza-->
+    </form>
+    <!--full form-->
+</body>
+</html>
